@@ -17,3 +17,4 @@ jobs:
           heroku_email: "zone.the.in@gmail.com"
           healthcheck: "https://mysterious-sea-88288.herokuapp.com/health"
           checkstring: "ok"
+          delay: 5
