@@ -18,3 +18,4 @@ jobs:
           healthcheck: "https://mysterious-sea-88288.herokuapp.com/health"
           checkstring: "ok"
           delay: 5
+          rollbackonhealthcheckfailed: true
