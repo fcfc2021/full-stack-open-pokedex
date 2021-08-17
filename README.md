@@ -16,6 +16,6 @@ Start by running `npm install` inside the project folder
 
 ## Currently problems:
 
-@exercise 11.12, having a "webpack not found" problem. the build was successful.
+@exercise 11.12, having a "webpack not found" problem. the build was successful.<br/>
 @ heroku deploy: I cannot open the webpage of my app.
  https://mysterious-sea-88288.herokuapp.com/
