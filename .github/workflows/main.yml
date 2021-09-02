@@ -18,3 +18,4 @@ jobs:
           healthcheck: "https://pokemon0902.herokuapp.com/health"
           checkstring: "ok"
           delay: 5
+          rollbackonhealthcheckfailed: true
