@@ -18,3 +18,14 @@ describe('Pokedex Navigation', function() {
     cy.contains('tinted lens')
   })
 })
+
+describe('Pokedex Navigation II', function() {
+  it('one can navigate from the main page to the page of fearow', function() {
+    cy.visit('http://localhost:5000')
+    cy.contains('fearow').click()
+
+    cy.contains('fearow')
+    cy.contains('keen eye')
+    cy.contains('sniper')
+  })
+})
