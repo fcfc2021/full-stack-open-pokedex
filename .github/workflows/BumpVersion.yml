@@ -5,6 +5,7 @@ on:
       - master
 jobs:
   build:
+    if: ${{ github.event_name == 'push' }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -14,6 +15,5 @@ jobs:
       uses: anothrNick/github-tag-action@1.26.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        WITH_V: true
-        with:
-          DEFAULT_BUMP:patch
+        with: DEFAULT_BUMP:patch
+        
