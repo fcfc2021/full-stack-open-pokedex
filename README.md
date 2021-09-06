@@ -2,7 +2,8 @@
 
 This repository is used for the CI/CD module of the Full stack open course
 
-Fork the repository to complete course exercises
+## comments from FC:
+At exercise 10.16, leave a blank after "DEFAULT_BUMP" and other field names and enter the value "patch".Otherwise it returns an error.
 
 ## Commands
 
