@@ -1,9 +1,0 @@
-steps:
-  - name: notify
-    if: ${{ success() || failure() }}
-  - uses: 8398a7/action-slack@v3
-    with:
-      status: ${{ job.status }}
-      fields: repo,message,commit,author,action,eventName,ref,workflow,job,took 
-      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} 
-   
