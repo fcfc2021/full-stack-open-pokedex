@@ -7,6 +7,7 @@ This repository is used for the CI/CD module of the Full stack open course
 * At exercise 11.17, I had  "Your account has reached its concurrent builds limit" ,but now it fixed itself.
 * At exercise 11.18, #skip should have no blanks between them.
 * At exercise 11.19, seems the token is invalid. Got 403 error.
+* @09.15，2021， try a new token for exercise 11.19.
 
 
 
